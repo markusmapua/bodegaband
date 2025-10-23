@@ -19,206 +19,206 @@ public class piano_itself extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton22 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
-        jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
-        jButton20 = new javax.swing.JButton();
+        b1 = new javax.swing.JButton();
+        b2 = new javax.swing.JButton();
+        b3 = new javax.swing.JButton();
+        b4 = new javax.swing.JButton();
+        b5 = new javax.swing.JButton();
+        b6 = new javax.swing.JButton();
+        b7 = new javax.swing.JButton();
+        w1 = new javax.swing.JButton();
+        w2 = new javax.swing.JButton();
+        w3 = new javax.swing.JButton();
+        w4 = new javax.swing.JButton();
+        w5 = new javax.swing.JButton();
+        w6 = new javax.swing.JButton();
+        w7 = new javax.swing.JButton();
+        w8 = new javax.swing.JButton();
+        w9 = new javax.swing.JButton();
+        w10 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(720, 360));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton22.setText("W");
-        jButton22.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 30, 124));
+        b1.setText("W");
+        b1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(b1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 120, 30, 124));
 
-        jButton1.setText("U");
-        jButton1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 30, 124));
+        b2.setText("E");
+        b2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(b2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 30, 124));
 
-        jButton2.setText("E");
-        jButton2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, 30, 124));
-
-        jButton23.setText("T");
-        jButton23.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
+        b3.setText("T");
+        b3.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        b3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
+                b3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 120, 30, 124));
+        getContentPane().add(b3, new org.netbeans.lib.awtextra.AbsoluteConstraints(305, 120, 30, 124));
 
-        jButton24.setText("Y");
-        jButton24.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(345, 120, 30, 124));
+        b4.setText("Y");
+        b4.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(b4, new org.netbeans.lib.awtextra.AbsoluteConstraints(345, 120, 30, 124));
 
-        jButton25.setText("O");
-        jButton25.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
+        b5.setText("U");
+        b5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(b5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 30, 124));
+
+        b6.setText("O");
+        b6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        b6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
+                b6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(465, 120, 30, 124));
+        getContentPane().add(b6, new org.netbeans.lib.awtextra.AbsoluteConstraints(465, 120, 30, 124));
 
-        jButton26.setText("P");
-        jButton26.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        getContentPane().add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 120, 30, 124));
+        b7.setText("P");
+        b7.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        getContentPane().add(b7, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 120, 30, 124));
 
-        jButton5.setText("D");
-        jButton5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        w1.setText("A");
+        w1.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                w1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, 43, 185));
+        getContentPane().add(w1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 43, 185));
 
-        jButton6.setText("S");
-        jButton6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        w2.setText("S");
+        w2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                w2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 43, 185));
+        getContentPane().add(w2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 43, 185));
 
-        jButton3.setText("A");
-        jButton3.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        w3.setText("D");
+        w3.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                w3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 43, 185));
+        getContentPane().add(w3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, 43, 185));
 
-        jButton9.setText("H");
-        jButton9.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        w4.setText("F");
+        w4.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                w4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, 43, 185));
+        getContentPane().add(w4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 120, 43, 185));
 
-        jButton13.setText("G");
-        jButton13.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        w5.setText("G");
+        w5.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                w5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 120, 43, 185));
+        getContentPane().add(w5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 120, 43, 185));
 
-        jButton14.setText("F");
-        jButton14.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        w6.setText("H");
+        w6.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                w6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 120, 43, 185));
+        getContentPane().add(w6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 120, 43, 185));
 
-        jButton11.setText("J");
-        jButton11.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
+        w7.setText("J");
+        w7.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
+                w7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, 43, 185));
+        getContentPane().add(w7, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, 43, 185));
 
-        jButton17.setText("L");
-        jButton17.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
+        w8.setText("K");
+        w8.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
+                w8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 120, 43, 185));
+        getContentPane().add(w8, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 43, 185));
 
-        jButton19.setText(";");
-        jButton19.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
+        w9.setText("L");
+        w9.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
+                w9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 120, 43, 185));
+        getContentPane().add(w9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 120, 43, 185));
 
-        jButton20.setText("K");
-        jButton20.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
+        w10.setText(";");
+        w10.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        w10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+                w10ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 43, 185));
+        getContentPane().add(w10, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 120, 43, 185));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void w1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_w1ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void w3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_w3ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void w2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+    }//GEN-LAST:event_w2ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+    private void w6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_w6ActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    private void w5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_w5ActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    private void w4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_w4ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+    private void w7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    }//GEN-LAST:event_w7ActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+    private void w9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w9ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+    }//GEN-LAST:event_w9ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void w10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_w10ActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void w8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_w8ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
+    }//GEN-LAST:event_w8ActionPerformed
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+    private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton25ActionPerformed
+    }//GEN-LAST:event_b6ActionPerformed
 
-    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+    private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton23ActionPerformed
+    }//GEN-LAST:event_b3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -256,22 +256,22 @@ public class piano_itself extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JButton b1;
+    private javax.swing.JButton b2;
+    private javax.swing.JButton b3;
+    private javax.swing.JButton b4;
+    private javax.swing.JButton b5;
+    private javax.swing.JButton b6;
+    private javax.swing.JButton b7;
+    private javax.swing.JButton w1;
+    private javax.swing.JButton w10;
+    private javax.swing.JButton w2;
+    private javax.swing.JButton w3;
+    private javax.swing.JButton w4;
+    private javax.swing.JButton w5;
+    private javax.swing.JButton w6;
+    private javax.swing.JButton w7;
+    private javax.swing.JButton w8;
+    private javax.swing.JButton w9;
     // End of variables declaration//GEN-END:variables
 }

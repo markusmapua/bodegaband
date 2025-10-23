@@ -1,8 +1,8 @@
 package instrument;
 
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import javax.sound.sampled;
 
 public class keys {
     private JButton key_btn;
@@ -18,7 +18,7 @@ public class keys {
         
         key_btn = new JButton(note);
         key_color();
-        key_sound();
+        play();
         key_listen();
     }
     
@@ -45,7 +45,7 @@ public class keys {
         }
     }
     
-    private void key_sound () {
+    private void play () {
         
     }
     
